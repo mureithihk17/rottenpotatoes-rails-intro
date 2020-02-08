@@ -1,9 +1,9 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: White;
-  color: DarkSlateGrey;
-  font-family: Tahoma, Verdana, sans-serif;
+  background: white;
+  color: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 10pt;
 }
 div#main {
@@ -12,22 +12,22 @@ div#main {
 }
 a {
   background: transparent;
-  color: maroon;
+  color: red;
   text-decoration: underline;
   font-weight: bold;
 }
 h1 {
-  color: maroon;
+  color: red;
   font-size: 150%;
   font-style: italic;
   display: block;
   width: 100%;
-  border-bottom: 1px solid DarkSlateGrey;
+  border-bottom: 1px solid black;
 }
 h1.title {
   margin: 0 0 1em;
   padding: 10px;
-  background-color: orange;
+  background-color: blue;
   color: white;
   border-bottom: 4px solid gold;
   font-size: 2em;
@@ -49,7 +49,7 @@ table#movies th, table#movies td {
   text-align: left;
 }
 #notice #warning {
-  background: rosybrown;
+  background: green;
   margin: 1em 0;
   padding: 4px;
 }
@@ -57,7 +57,7 @@ form label {
   display: block;
   line-height: 25px;
   font-weight: bold;
-  color: maroon;
+  color: red;
 }
 table#movies th.hilite {
   background-color: yellow;
