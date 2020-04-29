@@ -33,6 +33,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 gem 'themoviedb'
+gem 'omniauth-auth0', '~> 2.2'
+gem 'omniauth-rails_csrf_protection', '~> 0.1'
+gem 'activerecord-session_store'
 
 # Window support
 gem 'tzinfo'
